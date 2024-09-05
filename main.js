@@ -133,7 +133,7 @@ function optionSelected(answer){
         answer.insertAdjacentHTML("beforeend", tickIcon);
     } else{
         answer.classList.add("incorrect");
-        console.log("Answer is incorrect");
+        console.log("Answer is wrong");
         answer.insertAdjacentHTML("beforeend", crossIcon);
 
         // once user selects the wrong answer, auto select the correct answer
