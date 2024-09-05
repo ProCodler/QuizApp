@@ -67,7 +67,7 @@ restartQuiz.onclick = () =>{
     startTimerLine(widthValue);
     nextButton.style.display = "none";
     timeoff.textContent = "Time Left";
-    userScore = 0;
+    // userScore = 0;
 }
 lquitQuiz.onclick = () =>{
     window.location.reload();
